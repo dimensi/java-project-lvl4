@@ -20,7 +20,7 @@ public class App {
         var app = Javalin.create(config -> {
             config.enableDevLogging();
         });
-        app.get("/", ctx -> ctx.result("Hello world!"));
+        app.get("/", ctx -> ctx.result("Hello world! 2"));
 
         return app;
     }
