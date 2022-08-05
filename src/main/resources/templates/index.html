@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{layouts/application.html}">
+
+<section layout:fragment="content">
+  <div class="card">
+    <div class="card-body p-5 bg-dark">
+      <form class="mb-3">
+        <label for="url" class="form-label">Бесплатно проверяйте сайты на SEO пригодность</label>
+        <div class="input-group">
+          <input type="text" class="form-control" id="url" name="url"  placeholder="Ссылка" aria-label="Ссылка" aria-describedby="urlHelp">
+          <button class="btn btn-primary">Проверить</button>
+        </div>
+        <div class="form-text" id="urlHelp">Пример: https://www.example.com</div>
+      </form>
+    </div>
+  </div>
+</section>
+
+</html>
